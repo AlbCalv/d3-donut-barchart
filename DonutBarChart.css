@@ -1,0 +1,51 @@
+/*Alberto Calvo Madurga*/
+
+<style>
+
+.axis path,
+.axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+.grid .tick line{
+stroke: lightgrey;
+opacity: 0.7;
+}
+.grid path {
+stroke-width: 0;
+}
+#yaxisname,#yaxisname2{
+  text-anchor: start;
+  font: 16px courier;
+}
+.axis {
+font: 16px courier;
+font-weight: 500;
+}
+.x.axis path {
+display: none;
+}
+.title {
+  font: 16px courier;
+  border: 15px solid black;
+  font-size: 22px;
+}
+.labels,
+#etiq{
+  font:15px courier;
+  font-weight:500;
+}
+.equipo,
+.golEsp,
+.golExt,
+.pos{
+  font: 16px courier;
+  font-weight: 500;
+}
+.legendOrdinal,
+.legendOrdinalPie{
+  font: 16px courier;
+  font-weight: 500;
+}
+</style>
